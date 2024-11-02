@@ -26,3 +26,5 @@ Repository to be using for BaselHack 2024 from Hackademix team working on MDPI c
     ```bash
     streamlit run welcome.py
     ```
+### Live demo
+[https://hackademix.streamlit.app/](https://hackademix.streamlit.app/) 
