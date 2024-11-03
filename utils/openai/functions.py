@@ -7,7 +7,7 @@ import faiss
 import json
 import fitz
 from tenacity import retry, wait_random_exponential, stop_after_attempt
-
+import streamlit as st
 from utils.openai.prompt import get_prompt_basic, get_prompt_convo
 
 import openai
@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 openai.api_key = os.getenv("API_KEY")
-
+st.secrets["API_KEY"]
 
 def read_faiss():
     # read json
